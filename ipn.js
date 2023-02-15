@@ -10,3 +10,7 @@ app.get("/ipn", (req, res) => {
   console.log(req);
   res.send("Hello World!");
 });
+
+app.listen(3000, () => {
+  console.log("Server is running on port 3000");
+});
